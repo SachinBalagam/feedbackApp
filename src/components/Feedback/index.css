@@ -1,1 +1,44 @@
 /* Write your CSS code here. */
+
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 400px;
+  width: 500px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.image {
+  width: 70px;
+  margin: 30px;
+}
+.description {
+  text-align: center;
+}
+.list-container {
+  display: flex;
+}
+.each-list {
+  list-style-type: none;
+}
